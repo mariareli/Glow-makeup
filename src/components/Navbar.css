@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #A76399;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.cart-icon a {
+  font-size: 60px; /* Cambia este valor para ajustar el tamaño */
+  line-height: 1;  /* Asegura que no se agregue espacio innecesario */
+  text-decoration: none; /* Quita el subrayado */
+}
+
+/* Opcional: Ajustar el espaciado alrededor del ícono */
+.cart-icon {
+  margin-left: 20px; /* Ajusta este valor según sea necesario */
+}
+
+
+.cart-icon:hover {
+  color: #ccc;
+}

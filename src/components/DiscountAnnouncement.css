@@ -1,0 +1,36 @@
+.discount-announcement {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.discount-announcement h2 {
+  color: #A76399;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.discount-announcement ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.discount-announcement li {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.discount-announcement strong {
+  color: #A76399;
+}
+
+.discount-announcement p {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #333;
+}

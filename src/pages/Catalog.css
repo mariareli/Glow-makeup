@@ -1,0 +1,50 @@
+.catalog {
+  padding: 20px;
+}
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.catalog-item {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.catalog-item img {
+  width: 50%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.catalog-item h2 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.catalog-item p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.catalog-item button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #65558F;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.catalog-item button:hover {
+  background-color: #6F337F;
+}
